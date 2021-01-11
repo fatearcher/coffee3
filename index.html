@@ -10,13 +10,29 @@
     <link rel="stylesheet" href="top.css" />
     <link rel="stylesheet" href="slick.css" />
     <link rel="stylesheet" href="calendar.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein').each(function () {
+                    var targetElement = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > targetElement - windowHeight + 200) {
+                        $(this).css('opacity', '1');
+                        $(this).css('transform', 'translateY(0)');
+                    }
+                });
+            });
+        });
+    </script>
   </head>
 
 
-  <body id="top" class="archive pc">
+  <body id="top" class="archive pc ">
 
        <div class="circle_2">
-          <div class="scrolltop" onclick="scrollToTop();">
+          <div class="scrolltop fadein" onclick="scrollToTop();">
           </div>
        </div>
 
@@ -257,19 +273,19 @@
             <div id="top-inner">
               <section class="sec-copy">
                 <h2>
-                  <span class="font-min">幸せを感じるひとときを。</span>
+                  <span class="font-min fadein">幸せを感じるひとときを。</span>
                 </h2>
-                <p>
+                <p class="fadein">
                   当店で使用している野菜は、すべて旬の野菜です。<br />野菜・穀物は露地もの、有機栽培、無農薬もしくはできるだけ<br />低農薬で育てたものです。<br
                     class="sp_view"
                   />当店は全国各地、新鮮で安全な天然の食材（魚貝、海老、鶏他）<br />直接仕入れています。
                 </p>
-                <p>
+                <p class="fadein">
                   美味しい素材で手間ひまをかけて丁寧に作った、当店自慢の料理<br />ゆっくりとご賞味ください。
                 </p>
               </section>
 
-              <section class="sec-category" id="sec-category">
+              <section class="sec-category fadein" id="sec-category" >
                 <ul class="category-list">
                   <li class="daily">
                     <a href="" title="いつものコーヒー">
@@ -330,7 +346,7 @@
                 </ul>
               </section>
 
-              <section class="sec-lineup" id="sec-lineup">
+              <section class="sec-lineup fadein" id="sec-lineup">
                 <h2 class="title-center">
                   <span class="font-en-sl">Recommend Lunch Menu</span>
                   <b>ランチメニュー</b>
@@ -442,14 +458,14 @@
                     
                   </a>
                 </div>
-                <div class="btn-set">
+                <div class="btn-set fadein">
                   <div class="btn-bullet size-m btn-modal-common">
                     <span>詳しい店舗のアクセスこちらへ</span>
                   </div>
                 </div>
               </section>
 
-              <section class="sec-blog" id="sec-blog">
+              <section class="sec-blog fadein" id="sec-blog">
                 <h2 class="title-center">
                   <span class="font-en-sl">お知らせ</span>
                 </h2>
@@ -536,7 +552,7 @@
                   
                 </div>
 
-                <div class="calendar" id="calendar">
+                <div class="calendar fadein" id="calendar">
                   <div
                     class="schedule-calender"
                     id="calendar"
@@ -556,7 +572,7 @@
         <!-- /#main -->
 
         <footer>
-          <div class="copy">
+          <div class="copy fadein">
             <em class="font-en-sr">Comfortable Wear. Town Or Home</em>
          
           </div>

@@ -53,6 +53,12 @@ body {
   overflow-y: scroll;
 }
 
+.fadein {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s;
+}
+
 body.noscroll {
   overflow-y: scroll;
   position: fixed;
@@ -297,7 +303,7 @@ header {
   position: fixed;
   top: 0;
   right: calc(100% - 70px);
-  background: linear-gradient(225deg, #e1697d 0%, #9aba72 100%);
+  background: linear-gradient(225deg, #a04251 0%, #9aba72 100%);
   width: 25%;
   min-width: 365px;
   height: 100vh;
