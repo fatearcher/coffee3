@@ -163,6 +163,10 @@ a:hover {
 
 /*.btn-bullet
 ------------------------------------*/
+.access img:hover {
+  opacity: 0.5;
+}
+
 .btn-bullet {
   overflow: hidden;
   margin-top: 30px;
@@ -514,7 +518,7 @@ header:hover .btn-nav:not(.active) span:nth-of-type(3) {
 ------------------------------------*/
 header .inner {
   position: absolute;
-  bottom: 50px;
+  bottom: 170px;
   left: 40px;
 }
 
@@ -737,7 +741,7 @@ header .sns img.white {
 footer {
   width: 100%;
   margin: 0;
-  padding: 200px 0 0;
+  padding: 50px 0 0;
   white-space: nowrap;
 }
 

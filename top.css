@@ -270,7 +270,7 @@ main > .logo-mark {
   position: relative;
   width: 100%;
   margin-bottom: 22px;
-  padding-bottom: 142.5%;
+  padding-bottom: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,16 +378,8 @@ main > .logo-mark {
   display: block;
 }
 
-.sec-lineup .bnr a:hover {
+.sec-lineup.bnra: .category-list .gift figur {
   opacity: 0.7;
-}
-
-.sec-lineup .bnr .txt {
-  box-sizing: border-box;
-  background: url(../img/top/bnr-pot-service-bg@2x.jpg) no-repeat center center;
-  background-size: cover;
-  width: 40%;
-  padding: 32px 34px 28px 32px;
 }
 
 .sec-lineup .bnr h2 {
