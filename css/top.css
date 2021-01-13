@@ -176,7 +176,7 @@ main > .logo-mark {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(img/tanya-patrikeyeva-3BW_5Zy8pPo-unsplash.jpg) no-repeat
+  background: url(../img/tanya-patrikeyeva-3BW_5Zy8pPo-unsplash.jpg) no-repeat
     center center;
   background-size: cover;
   width: 100%;
@@ -277,13 +277,13 @@ main > .logo-mark {
 }
 
 .category-list .daily figure {
-  background-image: url(img/coffee.jpg);
+  background-image: url(../img/coffee.jpg);
 }
 .category-list .teikibin figure {
-  background-image: url(img/2.png);
+  background-image: url(../img/2.png);
 }
 .category-list .gift figure {
-  background-image: url(img/3.jpg);
+  background-image: url(../img/3.jpg);
 }
 
 .category-list figure:before {

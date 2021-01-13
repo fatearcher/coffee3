@@ -268,7 +268,7 @@ a:hover {
   position: absolute;
   top: 8px;
   left: 0;
-  background: url(img/arrow.png) no-repeat;
+  background: url(../img/arrow.png) no-repeat;
   background-size: 100% auto;
   width: 12px;
   height: 7px;
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .btn-back.white a:before {
-  background-image: url(img/arrow.png);
+  background-image: url(../img/arrow.png);
 }
 
 @media all and (-ms-high-contrast: none) {
