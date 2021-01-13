@@ -11,7 +11,7 @@
   right: 25px;
   width: 60px;
   height: 60px;
-  background: #fff0 url(img/up.png);
+  background: #fff0 url(../img/up.png);
   border-radius: 50%;
   background-size: 32px;
   background-position: center;
@@ -29,7 +29,7 @@
   position: absolute;
   left: -9px;
   top: -9px;
-  background: url("img/circle3.png");
+  background: url("../img/circle3.png");
   background-size: 100% 100%;
   -webkit-animation: circle 16s linear infinite;
   animation: circle 20s linear infinite;
